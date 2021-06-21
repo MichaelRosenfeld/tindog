@@ -26,6 +26,10 @@ h1 {
   padding: 20% 0 5% 0;
 }
 
+h2 {
+  font-weight: 500;
+  font-size: 3rem;
+}
 
 h3 {
   font-weight: 500;
@@ -46,7 +50,7 @@ em {
 
 .container-fluid {
   font-family: 'Ubuntu', sans-serif;
-  padding: 3% 15%;
+  padding: 3% 15% 8%;
   background-color: #ff4c68;
 }
 
@@ -62,8 +66,10 @@ em {
 }
 
 .phone {
-  transform: rotate(25deg) scale(0.9);
+  transform: rotate(25deg) scale(0.8);
   padding-top: 5%;
+  position: absolute;
+  right: 15%;
 }
 
 .fas {
@@ -75,8 +81,13 @@ em {
   color: #FF4D69;
 }
 
+#features {
+  position: relative;
+  background-color: white;
+  padding: 10%;
+}
+
 .featurelist {
-  margin: 10% 8%;
   padding: 20px;
 }
 
@@ -85,7 +96,6 @@ em {
 }
 
 /* Testimonial Section */
-
 #testimonials {
   background-color: #ff4c68;
 }
@@ -107,19 +117,16 @@ em {
 }
 
 /* Press Section */
-
-
 #press {
   background-color: #ff4c68;
 }
 
 .press-images {
   width: 11%;
-  margin: 0 2% 3% 2% ;
+  margin: 0 2% 3% 2%;
 }
 
 /* Pricing Section */
-
 .pricing-title {
   padding: 5%;
 }
