@@ -9,7 +9,7 @@ body {
 
 
 button {
-  margin-right: 9%;
+  margin-right: 5%;
   margin-top: 10%;
 }
 
@@ -27,9 +27,21 @@ h1 {
   padding: 20% 0 5% 0;
 }
 
+h3 {
+  font-weight: 600;
+}
+
 li {
   padding: 5% 8%;
 }
+
+p {
+  margin: 0 80px;
+  color: grey;
+}
+
+
+
 
 .container-fluid {
   font-family: 'Ubuntu', sans-serif;
@@ -50,13 +62,24 @@ li {
 }
 
 .phone {
-  transform: rotate(25deg) scale(0.8);
+  transform: rotate(25deg) scale(0.9);
   margin-top: 5%;
   position:relative;
-  bottom: 7%;
+  bottom: 2%;
   left: 7%;
 }
 
+.fas {
+  font-size: 4rem;
+  padding: 20px;
+  color: #EF8172;
+}
+  .fas:hover {
+  color: #FF4D69;
+  }
+
 .featurelist {
-  padding-top: 5%;
+ margin: 10% auto;
+ padding: 20px;
+
 }
