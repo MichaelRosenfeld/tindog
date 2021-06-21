@@ -26,11 +26,6 @@ h1 {
   padding: 20% 0 5% 0;
 }
 
-h2 {
-  color: white;
-  font-weight: bold;
-  line-height: 3rem;
-}
 
 h3 {
   font-weight: 500;
@@ -42,7 +37,6 @@ li {
 }
 
 p {
-  padding: 0 20%;
   color: grey;
 }
 
@@ -86,10 +80,20 @@ em {
   padding: 20px;
 }
 
+.features-text {
+  padding: 0 20%;
+}
+
 /* Testimonial Section */
 
 #testimonials {
   background-color: #ff4c68;
+}
+
+.testimonial-text {
+  color: white;
+  font-weight: bold;
+  line-height: 3.3rem;
 }
 
 .testimonial-image {
@@ -112,4 +116,14 @@ em {
 .press-images {
   width: 11%;
   margin: 0 2% 3% 2% ;
+}
+
+/* Pricing Section */
+
+.pricing-title {
+  padding: 5%;
+}
+
+.card-section {
+  padding: 0 2% 2%;
 }
