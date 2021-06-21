@@ -7,7 +7,6 @@ body {
   text-align: center;
 }
 
-
 button {
   margin-right: 5%;
   margin-top: 10%;
@@ -15,7 +14,7 @@ button {
 
 nav {
   display: flex;
-  margin-right: 12%;
+  padding-right: 12%;
 }
 
 h1 {
@@ -25,6 +24,12 @@ h1 {
   font-weight: bolder;
   line-height: 1.5;
   padding: 20% 0 5% 0;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  line-height: 3rem;
 }
 
 h3 {
@@ -41,14 +46,14 @@ p {
   color: grey;
 }
 
-
-
+em {
+  color: white;
+}
 
 .container-fluid {
   font-family: 'Ubuntu', sans-serif;
   padding: 3% 15%;
   background-color: #ff4c68;
-
 }
 
 .navbar-brand {
@@ -64,22 +69,47 @@ p {
 
 .phone {
   transform: rotate(25deg) scale(0.9);
-  margin-top: 5%;
-  position:relative;
-  bottom: 2%;
-  left: 7%;
+  padding-top: 5%;
 }
 
 .fas {
   font-size: 4rem;
   color: #EF8172;
 }
-  .fas:hover {
+
+.fas:hover {
   color: #FF4D69;
-  }
+}
 
 .featurelist {
- margin: 10% 8%;
- padding: 20px;
+  margin: 10% 8%;
+  padding: 20px;
+}
 
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ff4c68;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 4%;
+}
+
+.carousel-item {
+  padding: 5% 25%;
+}
+
+/* Press Section */
+
+
+#press {
+  background-color: #ff4c68;
+}
+
+.press-images {
+  width: 11%;
+  margin: 0 2% 3% 2% ;
 }
