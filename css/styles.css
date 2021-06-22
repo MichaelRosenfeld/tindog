@@ -72,6 +72,25 @@ em {
   right: 15%;
 }
 
+@media  (max-width: 1180px) {
+  .phone {
+    position: relative;
+    left: 16%;
+    transform: rotate(0) scale(0.8);
+  }
+}
+
+@media (max-width: 993px) {
+  .phone {
+    position: static;
+    margin: auto;
+  transform: scale(0.7);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
 .fas {
   font-size: 4rem;
   color: #EF8172;
