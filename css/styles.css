@@ -92,12 +92,12 @@ em {
   }
 }
 
-.fas {
+.icon {
   font-size: 4rem;
   color: #EF8172;
 }
 
-.fas:hover {
+.icon:hover {
   color: #FF4D69;
 }
 
