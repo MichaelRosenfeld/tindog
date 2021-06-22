@@ -86,6 +86,7 @@ em {
     margin: auto;
   transform: scale(0.7);
   }
+
   #title {
     text-align: center;
   }
@@ -152,4 +153,20 @@ em {
 
 .card-section {
   padding: 0 2% 2%;
+}
+
+/* Call To Action */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 10%;
+}
+
+.cta-text {
+  color: white;
+  font-weight: bolder;
+}
+
+.cta-button {
+  margin: 60px 10px 0 ;
 }
