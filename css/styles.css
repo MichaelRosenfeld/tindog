@@ -115,7 +115,9 @@ em {
   padding: 0 20%;
 }
 
+
 /* Testimonial Section */
+
 #testimonials {
   background-color: #ff4c68;
 }
@@ -136,7 +138,9 @@ em {
   padding: 5% 25%;
 }
 
+
 /* Press Section */
+
 #press {
   background-color: #ff4c68;
 }
@@ -146,7 +150,9 @@ em {
   margin: 0 2% 3% 2%;
 }
 
+
 /* Pricing Section */
+
 .pricing-title {
   padding: 5%;
 }
@@ -154,6 +160,7 @@ em {
 .card-section {
   padding: 0 2% 2%;
 }
+
 
 /* Call To Action */
 
@@ -169,4 +176,19 @@ em {
 
 .cta-button {
   margin: 60px 10px 0 ;
+}
+
+
+/* Footer */
+
+#footer {
+  padding: 5%;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+.social-links {
+  padding: 1.5% 1%;
 }
